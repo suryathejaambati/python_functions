@@ -1,0 +1,36 @@
+import re
+#text="@ This is a python and it is easy to learni and it is popular one for dev automation 7 35 46 $"
+text="  ispythonlanguage and it consists python2 version and python3 version"
+#text="This is a ip address of my db1 server: 255.255.255.255 345627830374"
+#text="This is python @ 345 _ - ("
+#my_pat="sa"
+#my_pat="i[ston]"
+#my_pat="[abcd]"
+#my_pat="[a-d]"
+#my_pat="[a-f g-n s-z]"
+#my_pat="\w"
+#my_pat="\w\w"
+#my_pat="\w\w\w"
+#my_pat="\w\w\w\w"
+#my_pat="\W"
+#my_pat="\d"
+#my_pat="python\d"
+#my_pat="\d\d"
+#my_pat="."
+#my_pat=".."
+#my_pat="..."
+#my_pat="\."
+#my_pat="\d\d\d"
+#my_pat="\d\d\d.\d\d\d.\d\d\d.\d\d\d"
+#my_pat="^i[ts]"
+#my_pat="version$"
+#my_pat=r"\bversion"
+#my_pat=r"\bpython\b"
+#my_pat=r"\Bpython\B"
+my_pat=r"\tis"
+#print(len(re.findall(my_pat,text)))
+#print(re.findall(my_pat,text))
+#text="This is python @ 345 _ - ("
+#print(re.findall('\w',text))
+#print(re.findall('.',text))
+print(re.findall(my_pat,text))
